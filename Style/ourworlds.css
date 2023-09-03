@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    
+}
+.mainSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    /* padding-left: 100px; */
+    padding: 0px 20px 0px 20px;
+}
+.imageContainer {
+    width: 25%; /* Each image container should occupy 25% of the available width */
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.imageContainer h4 {
+    color: white;
+    line-height: 1.1;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.imageContainer h6 {
+    color: rgb(172, 167, 167);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.mainSection img {
+    width: 100%;
+    height: auto; 
+}
+/* .navigationMenus{
+   
+margin-top: 52px;
+margin-right: -13px;
+} */
+.navigationMenus a{
+    display: flexbox;
+    font-size:  20px;
+    font-style: sans-serif;
+    justify-content: center;
+    text-align: center;
+    /* remove underline
+    text-decoration: none; 
+    /* margin between items */
+    margin: 0 5px;
+    color: white;
+    gap: 30px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;   
+}
+.footer-container a{
+    text-align: right;
+    /* remove underline */
+    text-decoration: none; 
+    /* margin between items */
+    margin: 0 10px;
+    color: white;
+}
+footer {
+    padding: 0px;
+    margin-top: 0px;
+  }
+.row-left{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.row-right{
+display: flexbox;
+justify-content: flex-end;
+}
+
+  
+ul{
+    float: right;
+    list-style: none;
+    margin: 10 20 10;
+}
+.footer-info{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    
+}
+.first-column{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* Header/Logo Title */
+  .header {
+    
+    text-align: center;
+    background: black;
+    color: white;
+    /* font-size: 70px; */
+    height: 222px;
+  }
+.h-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 38px;
+  padding-right: 20px;
+}
+.h-menu{
+  margin-right: 150px;
+  padding-bottom: 90px;
+  margin-top: 30px;
+}
+.h-menu ul{
+    text-decoration: none;
+color: white;
+  display: flex;
+ justify-content: flex-end; 
+ list-style-type: none;
+}
+.h-menu li{
+position: relative;
+padding-left: 50px;
+  font-size: 18px;
+  font-family: Arial;
+}
+.h-menu ul li a {
+    text-decoration: none; 
+    color: white; 
+}
+.h-menu ul li a:hover {
+    color: rgb(235, 151, 42);
+    cursor: pointer;
+}
+.h-menu li:hover{
+color: rgb(235, 151, 42);
+cursor: pointer;
+}
+.hlogo{
+  margin: 14px;
+}
+
+
+
+
+.footer{
+    background-color: #161f1e;
+      height: 500px;
+    }
+    .f-container{
+      display: flex;
+      justify-content: space-between;
+      background-color: #161f1e;
+      height: 450px;
+    }
+    .flogo{
+      display: flex;
+      align-items: center;
+      padding-bottom: 230px;
+      margin-left: 85px;
+    }
+    .link-div{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 110px;
+    align-items: center;
+    margin-right: 70px;
+    
+    }
+    .link-div li{
+      list-style: none;
+      padding-left: 11px;
+      margin-bottom: 18px  ;
+    }
+    .link-div a{
+      color: rgb(150, 143, 143);
+      font-weight: bold;
+    }
+    .b-footer h6{
+    padding-left: 20px;  
+    font-size: 11px;
+    }
+    .f-div{
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .getTouchText{
+      color: hsla(0, 4%, 48%, 0.75);
+      font-family: arial;
+      font-size: 15px;
+    }
+    .b-footer{
+      color: hsla(0, 4%, 48%, 0.75);
+    }
+    
